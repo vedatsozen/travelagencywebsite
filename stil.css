@@ -1,0 +1,266 @@
+html,body {
+    margin:0px;
+    padding:0px;
+    scroll-behavior: smooth;
+}
+
+body {
+
+    margin:auto;
+
+}
+
+#container {
+
+    background-image: url("images/arkaplan.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    height:100vh;
+    width:100%;
+    
+}
+
+nav {
+    margin:auto;
+    height:60px;
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo {
+    margin:auto;
+    height:60px;
+    width:50%;
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#logo, #menu {
+    width:50%;
+}
+
+#menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 20px;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 10px;
+    padding: 5px;
+    border-radius: 3px;
+    color: white;
+    letter-spacing: 3px;
+}
+
+h1.header {
+    
+    margin:auto;
+    margin-top:200px;
+    font-size:60px;
+    display: block;
+    background-color: maroon;
+    border-radius: 3px;
+    width: fit-content;
+    padding: 15px;
+}
+
+
+h1.aboutus {
+    
+    margin:auto;
+    font-size:60px;
+    display: block;
+    background-color: maroon;
+    border-radius: 3px;
+    width: fit-content;
+    padding: 15px;
+    
+}
+
+h1.reservation {
+    
+    margin:auto;
+    font-size:60px;
+    display: block;
+    background-color: maroon;
+    border-radius: 3px;
+    width: fit-content;
+    padding: 15px;
+    
+}
+
+h1.contact {
+    
+    margin:auto;
+    font-size:60px;
+    display: block;
+    background-color: maroon;
+    border-radius: 3px;
+    width: fit-content;
+    padding: 15px;
+    
+}
+
+h4 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:15px;
+    color: white;
+    text-align: center;
+}
+
+p {
+    margin:auto;
+    margin-top:14px;
+}
+
+a.menu {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    letter-spacing:1px;
+    background-color:maroon;
+    color: white;
+    padding: 10px;
+    border-radius: 3px;
+    color: white;
+    text-decoration: none;
+}
+
+a.menu:hover {
+    background-color:rgb(194, 63, 63);
+}
+
+
+#aboutus {
+
+height:700px;
+width: 100%;
+background-image: url("images/aboutus.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+padding-top:220px;
+padding:50px;
+box-sizing: border-box;
+text-align: center;
+}
+
+#reservation {
+
+    height:700px;
+    width: 100%;
+    background-image: url("images/reservation.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top:220px;
+    padding:50px;
+    box-sizing: border-box;
+    text-align: center;
+    }
+
+    #contact {
+
+        height:700px;
+        width: 100%;
+        background-image: url("images/contact.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-top:220px;
+        padding:50px;
+        box-sizing: border-box;
+        text-align: center;
+        }
+
+        table {
+            margin: auto;
+            border-radius: 3px;
+            font-size: 30px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        
+        }
+
+        input {
+            font-size: 30px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        button {
+            font-size: 30px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            cursor: pointer;
+            background-color: maroon;
+            color: white;
+            border: none;
+            border-radius: 3px;
+            width: 100px;
+        }
+
+        button:hover {
+            background-color:rgb(194, 63, 63);
+        
+        }
+
+        button:active {
+            transform: scale(0.8);
+        }
+
+        table tr td {
+
+            padding: 10px;
+            
+
+        }
+    footer {
+        height: 50px;
+        width: 100%;
+        background-color: brown;
+        color: white;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 15px;
+    }
+
+    span {
+
+        color: maroon;
+
+    }
+
+    img {
+
+        margin: auto;
+        animation: move 400ms infinite;
+
+    }
+
+    @keyframes move {
+
+0% { transform: translateY(0px); }
+    50% { transform: translateY(15px); }
+        100% { transform: translateY(0px); }
+
+    }
+    
+
+    .gotop {
+        text-decoration: none;
+    }
+
+    table tr:nth-child(5) {
+        text-align: right;
+    }
+
+    .logo {
+        text-decoration: none;
+    }
