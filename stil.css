@@ -292,7 +292,7 @@ text-align: center;
         background-repeat: no-repeat;
         text-align: center;
         height:100vh;
-        width:100%;
+        width:100vw;
         
     }
     
@@ -328,7 +328,7 @@ text-align: center;
     }
     
     h1 {
-        font-size: 40px;
+        font-size: 15px;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         margin-left: 10px;
         padding: 5px;
@@ -400,7 +400,7 @@ text-align: center;
     
     a.menu {
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        font-size: 15px;
+        font-size: 10px;
         letter-spacing:1px;
         background-color:maroon;
         color: white;
